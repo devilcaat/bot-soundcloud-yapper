@@ -1,0 +1,16 @@
+{
+  "name": "yapper-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.0",
+    "@livekit/rtc-node": "^0.11.0"
+  },
+  "allowScripts": {
+    "better-sqlite3": true
+  }
+}
